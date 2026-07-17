@@ -213,19 +213,19 @@ function CreateOrgForm({
         label="Organization name"
         value={name}
         onChange={(e) => setName(e.target.value)}
-        placeholder="Gem3s"
+        placeholder="company name"
       />
       <Field
         label="Code"
         value={code}
         onChange={(e) => setCode(e.target.value)}
-        placeholder="GEM3S"
+        placeholder="company code"
       />
       <Field
         label="Email domain"
         value={domain}
         onChange={(e) => setDomain(e.target.value)}
-        placeholder="gem3s.in"
+        placeholder="companydomain.in"
       />
       <button
         type="submit"
